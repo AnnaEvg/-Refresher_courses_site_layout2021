@@ -1,0 +1,79 @@
+/* общие стили */
+body {
+    margin: 0;
+    font-family: 'Stick No Bills', sans-serif;
+}
+.container {
+    width: 1140px;
+    /* border: 1px solid black;  для наглядности*/
+    margin: 0 auto;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+/* стили хэдэра */
+header {
+    background-color: rgba(135, 97, 160, 0.712);
+    display: flex ;
+    justify-content:space-between;
+    height: 60px;
+    align-items: center;
+    font-weight: 600 ;
+}
+
+/* стили навигации */
+.main-menu {
+    background-color: rgba(0, 68, 255, 0.651);
+}
+.main-menu-list {
+    height: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* стили контентой части */
+.content {
+    display: flex;
+}
+section {
+    background-color: rgba(0, 88, 139, 0.493);
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.section-item {
+    background-color: rgba(0, 162, 255, 0.555);
+    padding: 15px;
+    margin: 5px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+
+}
+/* стили сайдбара */
+
+.saidbar-right {
+    background-color: rgba(25, 239, 247, 0.493);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.news {
+    background-color: rgba(0, 217, 255, 0.692);
+}
+
+
+
+footer {
+    background-color: rgba(63, 20, 220, 0.315);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
