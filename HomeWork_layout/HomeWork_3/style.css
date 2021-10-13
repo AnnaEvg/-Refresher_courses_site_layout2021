@@ -1,0 +1,340 @@
+/* общие стили */
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    
+    }
+    
+
+ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+/* стили хэдэра */
+
+.header-top {
+    border-bottom: 1px solid #DEDEDEff;
+
+}
+.logo {
+    color: #3A95FF;
+    font-weight: 700;
+}
+
+.header-top-info {
+    display: flex ;
+    justify-content:space-between;
+    height: 67px;
+    align-items: center;
+}
+
+.top-menu {
+    display: flex ;
+    width: 945px;
+    justify-self: space-between;
+}
+
+.top-menu-left, .top-menu-right{
+    display: flex ;
+    list-style-type: none;
+    justify-content:space-between;
+}
+
+.top-menu-left a, .top-menu-right a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #424242ff;
+}
+
+.top-menu-left {
+    width: 352px ;
+    margin: 5px;
+}
+
+.top-menu-right {;
+    width: 340px;
+    padding-left: 250px;
+}
+
+.main-menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    height: 73px;
+    align-items: center;;
+
+}
+.main-menu-list a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #424242ff;
+}
+
+.header-bottom {
+    border-bottom: 0 1px 0 solid #DEDEDEff;
+    box-shadow: 0px 5px 5px rgba(33, 33, 33, 0.096)
+}
+/* Баннер */
+.main-banner {
+    border-bottom: 0 1px 0 solid #DEDEDEff;
+    box-shadow: 0px 5px 5px rgba(33, 33, 33, 0.096)
+}
+
+.banner-info {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.colortext {
+    color: #3A95FF;
+}
+
+.banner-info-offer
+
+.btn {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #3A95FF;
+    color: #ffffff;
+    padding: 15px 25px 15px;
+    border-radius: 3px;
+    margin-right: 19px;
+}
+
+.btn-secondary {
+    border: 1px solid #3A95FF;
+    color: #3A95FF;
+    padding: 14px 48px 14px;
+    border-radius: 3px;
+    margin-left: 19px;
+}
+
+/* блоки */
+
+.predl {
+    align-items: center;
+    color: #000000;
+}
+
+h1, h2, h5 {
+    color: #212121;
+}
+
+h3,h4 {
+    color: #424242;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+
+}
+h3 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* сами предложения */
+.bestPredl {
+    display: inline;
+    align-items: center;
+}
+
+.bestPredl_1, .bestPredl_2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.BPIpoteka, .savingsA, .personCards, .pProgram {
+    background-color: #EFF2F5;
+    display: flex;
+    height: 300px;
+    width: 555px;
+    border-radius: 8px;
+    margin: 19px;
+    box-shadow: 0px 7px 7px rgba(239, 242, 245, 0.5);
+
+}
+
+.BPIpotekaINFO, .savingsINFO, .personCardsINFO, .pProgramINFO {
+    padding: 0 20px 0;
+    width: 280px;
+}
+.bestPredl_2 {
+    margin-bottom: 120px;
+}
+
+/* блок 2 "кредитные карты" */
+.blok_2 {
+    background-color: #EFF2F5ff;
+    padding-top: 120px;
+}
+
+.produkts {
+    background-color: #E0E5EAff;
+    height: 500px;
+    width: 750px;
+    border-radius: 8px;
+    box-shadow: 0px 20px 20px rgba(224, 229, 234, 0.459);
+}
+
+.cred_card {
+    display: flex;
+    padding-left: 95px ;
+}
+
+.CardMenu {
+    display: flex ;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 30 px;
+    font-weight: 500;
+    list-style-type: none;
+    padding: 0 95px 0 ;
+}
+.CardMenu a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+hr {
+    border: none; 
+    background-color: #3A95FFff; 
+    height: 1px; 
+    border-radius: 1px;
+    margin-top: 10px;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+    text-align:center;
+}
+
+.btn_2 {
+    margin-left: 95px;
+}
+
+/* что-то не получается доделать после всего */
+.prod {
+    display: flex;
+}
+
+.deb_card,  .cred_card1 {
+    display: flex;
+    justify-content: right;
+    background-color: #f6f6f6ff;
+    height: 205px;
+    width: 300px;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 0 25px 25px;
+    border-bottom: 5px solid #3A95FF;
+    box-shadow: 0px 20px 20px rgba(224, 229, 234, 0.459);
+
+}
+
+.btn-blue_arrow {
+    margin-left: 70px;
+    margin-top: 150px;
+}
+
+/* как получить карту */
+
+.kak {
+    margin-top: 100px;
+}
+
+.kak2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.zayav, .odobr, .zabrat {
+
+    padding: 50px 100px 50px;
+    text-align: center;
+
+}
+
+/* footer */
+footer {
+    background-color: #EFF2F5ff;
+}
+
+.compan {
+    display: flex;
+    font-size: 14px;
+    padding-top: 40px;
+
+
+}
+.textFooter {
+    font-weight: 600;
+}
+
+.dannie {
+    width: 280px;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+.compnia {
+    margin-right: 10px;
+}
+
+/* страница №2 */
+.RublCard, .TravelCard,.SuperlCard {
+    display: flex;
+
+    align-items: center;
+    background-color: #EFF2F5ff;
+    box-shadow: 0px 20px 20px rgba(224, 229, 234, 0.459);
+    margin: 50px 0 50px;
+    border-radius: 8px;
+}
+.Rubl_text, .Travel_text, .Super_text {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.page2 {
+    display:inline;
+    float:left;
+}
